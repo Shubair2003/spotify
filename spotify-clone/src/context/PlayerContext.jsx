@@ -9,7 +9,7 @@ const PlayerContextProvider = (props) => {
     const seekBg = useRef();
     const seekBar = useRef();
 
-    const url = import.meta.env.SPOTIFY_BACKEND_URL || 'https://spotify-backend-gamma.vercel.app/'
+    const url = import.meta.env.SPOTIFY_BACKEND_URL || 'https://spotify-backend-gamma.vercel.app'
 
     const [songsData,setSongsData] = useState([]);
     const [albumsData,setAlbumsData] = useState([]);
